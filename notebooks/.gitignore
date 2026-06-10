@@ -1,0 +1,138 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# =========================
+# Model Checkpoints
+# =========================
+
+# Hugging Face / Transformers checkpoints
+Models/checkpoint-*/
+Models/**/checkpoint-*/
+Models/*.bin
+Models/**/*.bin
+Models/*.safetensors
+Models/**/*.safetensors
+Models/*.pt
+Models/**/*.pt
+Models/*.pth
+Models/**/*.pth
+Models/*.ckpt
+Models/**/*.ckpt
+
+# TensorFlow / Keras model files
+Models/*.h5
+Models/**/*.h5
+Models/*.keras
+Models/**/*.keras
+
+# Training outputs
+Models/runs/
+Models/**/runs/
+Models/logs/
+Models/**/logs/
+Models/wandb/
+Models/**/wandb/
+
+# =========================
+# Large Model / Cache Files
+# =========================
+
+.cache/
+huggingface/
+.huggingface/
+transformers_cache/
+datasets_cache/
+
+# =========================
+# Data Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Keep final research data files tracked if intentionally uploaded
+# Do not ignore:
+# Data/
+# Final Label/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / Editor Files
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# API Keys / Secrets
+# =========================
+
+secrets.json
+credentials.json
+token.json
+*.key
+*.pem
+
+# =========================
+# Output / Export Files
+# =========================
+
+outputs/
+results/
+predictions/
+figures/temp/
+```
