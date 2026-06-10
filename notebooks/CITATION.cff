@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software or the annotated data, please cite both this repository and the paper it accompanies."
+title: "Code and annotated data for: How People Talk About Sustainability: A Computational Discourse Analysis of Framing and Stakeholder Attribution in SDG 12"
+authors:
+  - family-names: "Alamsyah"
+    given-names: "Andry"
+    affiliation: "School of Economics and Business, Telkom University, Bandung, Indonesia"
+    email: "andrya@telkomuniversity.ac.id"
+  - family-names: "Ramadhani"
+    given-names: "Belliana"
+    affiliation: "School of Economics and Business, Telkom University, Bandung, Indonesia"
+    email: "bellianaramadhani@student.telkomuniversity.ac.id"
+  - family-names: "Ramadhani"
+    given-names: "Dian Puteri"
+    affiliation: "School of Economics and Business, Telkom University, Bandung, Indonesia"
+    email: "dianpramadhani@telkomuniversity.ac.id"
+version: 1.0.0
+date-released: 2026-06-10
+license: MIT
+repository-code: "https://github.com/rrbelliana-hub/Journal-SUST"
+keywords:
+  - SDG 12
+  - sustainable consumption and production
+  - sustainability discourse
+  - public discourse
+  - X
+  - YouTube
+  - BERT
+  - text classification
+  - emotion traits
+  - stakeholder attribution
+  - computational discourse analysis
+  - sustainability communication
+  - responsible consumption and production
+
+# Once the manuscript is published, fill in the preferred-citation block below
+# and add a Zenodo DOI to the top-level `doi:` field if available.
+
+# preferred-citation:
+#   type: article
+#   title: "How People Talk About Sustainability: A Computational Discourse Analysis of Framing and Stakeholder Attribution in SDG 12"
+#   authors:
+#     - family-names: "Ramadhani"
+#       given-names: "Belliana"
+#     - family-names: "Alamsyah"
+#       given-names: "Andry"
+#     - family-names: "Ramadhani"
+#       given-names: "Dian Puteri"
+#   journal: "<journal name on acceptance>"
+#   year: 2026
+#   doi: "<DOI on publication>"
+```
