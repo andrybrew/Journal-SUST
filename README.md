@@ -19,6 +19,7 @@ Journal-SUST/
 ├── Data/
 │   ├── All Data_Merged.csv
 │   ├── Final Data.xlsx
+│   ├── Final Data_with_platforms.xlsx
 │   ├── X.csv
 │   ├── Youtube.csv
 │   └── README.md
@@ -81,6 +82,7 @@ The datasets are available in the `/Data` folder.
 | `Youtube.csv`         | Source dataset collected from YouTube. It contains user comments from videos related to SDG 12 and sustainability issues.                  |
 | `All Data_Merged.csv` | Combined dataset created by merging the X/Twitter and YouTube datasets. This file represents the integrated dataset before final cleaning. |
 | `Final Data.xlsx`     | Cleaned dataset generated from the merged data and prepared for annotation, classification, and analysis.                                  |
+| `Final Data_with_platforms.xlsx`     | Final analytical dataset with harmonized platform labels and classification labels. This file is used to reproduce platform-level and cross-stage analyses.                               |
 
 The data preparation process follows four main stages:
 
