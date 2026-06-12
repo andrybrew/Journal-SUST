@@ -89,9 +89,34 @@ The data preparation process follows four main stages:
 1. Data were collected separately from X/Twitter and YouTube.
 2. The platform-specific datasets were merged into `All Data_Merged.csv`.
 3. The merged dataset was cleaned and preprocessed.
-4. The cleaned output was stored in `Final Data.xlsx`.
+4. SDG 12 relevance filtering was applied to produce the final analytical corpus.
 
-`All Data_Merged.csv` documents the integrated source dataset, while `Final Data.xlsx` represents the cleaned dataset used for downstream annotation and classification.
+The final analytical corpus consists of **16,850 SDG 12-relevant texts**, comprising **3,450 texts from X** and **13,400 comments from YouTube**.
+
+| Platform | Number of Texts | Share |
+|---|---:|---:|
+| X | 3,450 | 20.5% |
+| YouTube | 13,400 | 79.5% |
+| Total | 16,850 | 100.0% |
+
+`All Data_Merged.csv` documents the integrated source dataset, while `Final Data.xlsx` represents the cleaned dataset used for downstream annotation and classification. For platform-level and cross-stage analysis, `Final Data_with_platforms.xlsx` should be used because it includes the harmonized platform identifier and the corresponding labels from the three classification stages.
+
+The harmonized platform field is used for descriptive and comparative analysis only. It does not alter the cleaned text, SDG 12 relevance filtering, annotation framework, label definitions, or BERT-based classification procedure.
+
+---
+
+## 📝 Data Provenance Note
+
+The repository separates the data into source, merged, cleaned, platform-level, and labeled files to support transparency and reproducibility.
+
+* `X.csv` and `Youtube.csv` document the platform-specific source datasets.
+* `All Data_Merged.csv` documents the merged dataset from both sources.
+* `Final Data.xlsx` documents the cleaned dataset prepared for annotation and classification.
+* `Final Data_with_platforms.xlsx` documents the final analytical corpus with harmonized platform labels for platform-level and cross-stage analysis.
+* The files in `/Final Label` document the final annotated labels used in the classification stages.
+* The notebooks in `/BERT` document the model training workflow.
+
+This structure clarifies the data processing flow from platform-specific collection to final labeled data and BERT-based classification.
 
 ---
 
