@@ -189,7 +189,7 @@ The general workflow is:
 To install dependencies and run locally:
 
 ```bash
-git clone https://github.com/rrbelliana-hub/Journal-SUST.git
+git clone https://github.com/andrybrew/Journal-SUST.git
 cd Journal-SUST
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
@@ -237,7 +237,7 @@ This structure clarifies the data processing flow from platform-specific collect
 ## 🔗 Links
 
 * 📄 **Paper:** On publication process
-* 📁 **GitHub Repository:** https://github.com/rrbelliana-hub/Journal-SUST
+* 📁 **GitHub Repository:** https://github.com/andrybrew/Journal-SUST
 
 ---
 
